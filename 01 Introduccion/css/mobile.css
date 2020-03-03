@@ -1,13 +1,8 @@
-body {
-    overflow-x: hidden;
-
+body{
+    background-color: whitesmoke;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
 /*ICONO HAMBURGUESA CON TRANSFORMACION EN X*/
+
 .bar{ /*Estilo de las tres rayitas*/
     height: 3px;
     width: 100%;
@@ -54,15 +49,6 @@ html {
 }
 
 /*BARRA DE NAVEGACION*/
-.nav li a{ /*Color de los links*/
-    color: black;
-    font-family: 'Poppins', Arial, sans-serif;
-    letter-spacing: 1px;
-}
-
-.nav li a:hover{ /*Color al pasar el mouse por los links*/
-    font-weight: 700;
-}
 
 .nav{ /*Estilo del ul nav*/
     transition: 0.15s ease;
@@ -71,29 +57,29 @@ html {
 
 .change { /*Muestra el nav al hacer click*/
     margin-top: 50px;
-    height: auto;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     align-items: center;
+    height: 100vh;
+
 }
 
 .menu-bg { /*Animacion Fondo de la Barra de Navegacion*/
     width: 0;
-    height: 0;
     background: whitesmoke;
     transition: width .15s ease;
     z-index: 1; /*Debajo de los links de navegacion*/
 }
 
 #menu-bar{
-    width:60vw;
+    width:100vw;
     z-index: 2;/*Encima de la animacion de fondo*/
 }
 
 .change-bg { /*Fondo de la Barra de Navegacion*/
-    width: 60vw;
-    height: 100vh;
+    width: 100vw;
+    height: 110vh;
 }
 
 .menu-bg, #menu-bar{ /*Desconectarlos para que no se sobrepongan*/
@@ -111,32 +97,63 @@ header{
     background-color: whitesmoke;
 }
 
-#logo-catolica {
+#menu-subunidad {
+    width: 85%;
     position: absolute;
-    right: 5px;
-    top: 2px;
-    background-image: url("../img/logo_catolica.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 165px;
-    height: 70px;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+
+}
+#parte-izq {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.portada {
+#parte-der {
+    background-color: #9ec9f0;
+    height: 100%;
+    width: 50%;
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.65) 0%), url("../img/portada_madera.jpg");
-    background-color: whitesmoke;
+}
+
+#logo-anterior {
+    background-image: url("../img/flecha-izquierda.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 30px;
+    height: 30px;
 }
+
+#logo-inicio {
+    background-image: url("../img/home.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+#logo-siguiente {
+    background-image: url("../img/flecha-derecha.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+
+}
+
+
 
 h1 {
     font-family: 'Muli',Arial,sans-serif;
@@ -148,8 +165,8 @@ h1 {
 h2 {
     margin-top: 4px;
     font-family: 'Poppins',Verdana,sans-serif;
-    font-size: 1rem;
-    color: #c0c0c0;
+    font-size: 1.1rem;
+    color: black;
     text-align: center;
  }
 
@@ -166,36 +183,6 @@ h2 {
     color: #dbdbdb;
 }
 
-.docente-container { /*div Docente*/
-    padding: 25px;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #F0F0F0;
-    width: 100%;
-}
-
-.icon-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    width:160px;
-    height:40px;
-}
-
-.icon-container a{
-    width: 30px;
-    height: 30px;
-}
-
-.enunciado {
-    margin-top: 10px;
-    height: 20px;
-    font-family: 'Muli', Verdana, sans-serif;
-    font-size: 1rem;
-}
 
 #foto-docente {
     margin-top: 10px;
@@ -214,66 +201,23 @@ h2 {
     font-family:'Poppins', Arial, sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
-
-}
-
-.educacion-docente, .profesion-docente {
-    text-align: center;
-    font-family:'Muli', Arial, sans-serif;
-    margin-top: 5px;
-    font-size: .95rem;
-}
-
-#pompeyus-estructuras {
-    font-family: 'Muli', Arial, sans-serif;
-    color: blue;
-    font-size: 1rem;
-}
-
-#pompeyus-estructuras:hover{
-    text-decoration: underline;
-}
-
-#pompeyus-estructuras:visited{
-    color: #883EAD;
 }
 
 /*CONTENIDO DEL CURSO*/
 
-.contenido-container {
+.contenido-subunidad {
+    background-color: whitesmoke;
+    height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: center;
-}
-
-.descripcion-curso{
-    text-align: justify;
-    margin: 20px auto;
-    font-family:'Muli', Arial, sans-serif;
-    font-size: 1rem;
-    width: 80%;
-    line-height: 1.8rem;
-}
-
-.descripcion-curso p{
-    line-height: 1.8rem;
 
 }
 
-.descripcion-curso ul{
-    height: auto;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 30px;
-    list-style-image: url("../img/checkmark-icon.svg");
-}
-
-.descripcion-curso ul li{
-    line-height: 1.4rem;
-    margin-top: .9rem;
+.video-container{
+    position: relative;
+    height: 50vh;
 
 }
 
@@ -281,6 +225,7 @@ h2 {
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
     width: 80%;
+    overflow: auto;
 }
 
 .read-more-wrap .unidad {
@@ -342,22 +287,22 @@ h2 {
 /*    font-size: 0;*/
 /*    transition: .25s ease;*/
 /*}*/
-/*!*!*Cuando hago click en Ver mas*!*!*/
+/*!*Cuando hago click en Ver mas*!*/
 /*.read-more-state:checked ~ .read-more-wrap .read-more-target {*/
 /*    opacity: 1;*/
 /*    font-size: inherit;*/
 /*    max-height: 999em;*/
 /*}*/
-/*!*!*Contenido del Boton antes de hacer click*!*!*/
+/*!*!*Contenido del Boton antes de hacer click*!*/
 /*.read-more-state ~ .read-more-trigger:before {*/
 /*    content: 'Ver mas >';*/
 /*}*/
-/*!*!*Contenido del Boton despues de hacer click*!*!*/
+/*!*!*Contenido del Boton despues de hacer click*!*/
 /*.read-more-state:checked ~ .read-more-trigger:before {*/
 /*    content: 'Ver menos <';*/
 
 /*}*/
-/*!*!*Estilo del boton antes y despues de hacer click*!*!*/
+/*!*!*Estilo del boton antes y despues de hacer click*!*/
 /*.read-more-trigger {*/
 /*    cursor: pointer;*/
 /*    display: inline-block;*/
@@ -370,4 +315,4 @@ h2 {
 /*    border-radius: .25em;*/
 /*}*/
 
-/*!*!* Other style *!*!*/
+
