@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: white;
 }
 /*ICONO HAMBURGUESA CON TRANSFORMACION EN X*/
 
@@ -126,7 +126,7 @@ header{
 }
 
 #logo-anterior {
-    background-image: url("../img/flecha-izquierda.svg");
+    background-image: url("../../img/flecha-izquierda.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ header{
 }
 
 #logo-inicio {
-    background-image: url("../img/home.svg");
+    background-image: url("../../img/home.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ header{
 }
 
 #logo-siguiente {
-    background-image: url("../img/flecha-derecha.svg");
+    background-image: url("../../img/flecha-derecha.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@ h1 {
     font-size: 2.2rem;
     color: whitesmoke;
     text-align: center;
- }
+}
 
 h2 {
     padding: 15px;
@@ -168,17 +168,21 @@ h2 {
     font-size: 1.1rem;
     color: black;
     text-align: center;
- }
+}
 
- h3 {
+h3 {
+    display: block;
     font-family: 'Muli',Arial,sans-serif;
     font-size: 1rem;
     color:black;
- }
- 
+    text-align: justify;
+}
+
 #enunciado{
+    margin: 0 auto;
     background-color:white;
-    padding: 0px 20px;
+    padding: 0 20px;
+    width: 100%;
 
 }
 
@@ -186,66 +190,67 @@ h2 {
 
 .contenido-subunidad {
     background-color: white;
+    width: 100%;
     height: auto;
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-around;
+    align-content: center;
 
 }
 
 #image1 {
     background-image:url("../img/er1-3D.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 510px;
-    width: 600px;
+    height: 400px;
+    width: 100%;
 }
 
 #image2 {
     background-image:url("../img/er1-01.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 800px;
-    width: 600px;
+    height: 600px;
+    width: 100%;
 }
 
 #image3 {
     background-image:url("../img/er1-02.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 100%;
 }
 
 #image4 {
     background-image:url("../img/er1-03.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 100%;
 }
 
 #image5 {
     background-image:url("../img/er1-04.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 600px;
-    width: 800px;
+    height: 400px;
+    width: 100%;
 }
 
 #image6 {
     background-image:url("../img/er1-05.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    height: 300px;
-    width: 800px;
+    height: 250px;
+    width: 100%;
 }
 
 
@@ -342,5 +347,4 @@ h2 {
 /*    border: 1px solid #ddd;*/
 /*    border-radius: .25em;*/
 /*}*/
-
 
