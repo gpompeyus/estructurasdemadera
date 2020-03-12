@@ -171,9 +171,11 @@ h2 {
  }
 
  h3 {
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 1rem;
-    color:black;
+     display: block;
+     font-family: 'Muli',Arial,sans-serif;
+     font-size: 1rem;
+     color:black;
+     text-align: justify;
  }
  
 #enunciado{
@@ -195,13 +197,12 @@ h2 {
 }
 
 #image1 {
-    display: inline-block;
     background-image:url("../img/er1-3D.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    height: 400px;
-    width: 500px;
+    min-height: 400px;
+    width: 90vw;
 }
 
 #image2 {
@@ -209,8 +210,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
-    width: 500px;
+    min-height: 600px;
+    width: 90vw;
 }
 
 #image3 {
@@ -218,8 +219,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 420px;
-    width: 500px;
+    min-height: 420px;
+    width: 90vw;
 }
 
 #image4 {
@@ -227,8 +228,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 420px;
-    width: 500px;
+    min-height: 420px;
+    width: 90vw;
 }
 
 #image5 {
@@ -236,8 +237,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 420px;
-    width: 500px;
+    min-height: 420px;
+    width: 90vw;
 }
 
 #image6 {
@@ -245,8 +246,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 500px;
+    min-height: 200px;
+    width: 90vw;
 }
 
 
