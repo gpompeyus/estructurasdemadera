@@ -203,6 +203,7 @@ h2 {
     background-image:url("../img/er1-3D.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     height: 400px;
     width: 100%;
 }
