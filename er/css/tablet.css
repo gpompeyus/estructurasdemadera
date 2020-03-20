@@ -1,19 +1,94 @@
 body{
     background-color: white;
 }
+/*ICONO HAMBURGUESA CON TRANSFORMACION EN X*/
+
+.bar{ /*Estilo de las tres rayitas*/
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#bar1{ /*Las tres rayitas se vuelven una sola*/
+    transform: translateY(-4px);
+}
+
+#bar3 { /*Las tres rayitas se vuelven una sola*/
+    transform: translateY(4px);
+}
+
+.change .bar{ /*Click para cambiar el fondo de las rayitas*/
+    background-color: black;
+}
+
+.change #bar1 { /*Click para mover y rotar la rayita superior*/
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3 { /*Click para mover y rotar la rayita inferior*/
+    transform: translateY(-4px) rotate(45deg);
+}
+
+.change #bar2 { /*Click para esconder la rayita del medio*/
+    opacity: 0;
+}
+
+#menu { /*Container tres rayitas de la hamburguesa*/
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 32px;
+    height: 12px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.nav{ /*Estilo del ul nav*/
+    transition: 0.15s ease;
+    display: none;/*El nav no debe verse al principio*/
+}
+
+.change { /*Muestra el nav al hacer click*/
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.menu-bg { /*Animacion Fondo de la Barra de Navegacion*/
+    width: 0;
+    background: whitesmoke;
+    transition: width .15s ease;
+    z-index: 1; /*Debajo de los links de navegacion*/
+}
 
 .menu-bar{
-    background-color: #dbdbdb;
-    width:20vw;
+    width:100vw;
+    z-index: 2;/*Encima de la animacion de fondo*/
 }
 
-.nav {
-    height: 100vh;
-    overflow: auto;
-
-
+.change-bg { /*Fondo de la Barra de Navegacion*/
+    width: 100vw;
+    height: 110vh;
 }
 
+.menu-bg, #menu-bar{ /*Desconectarlos para que no se sobrepongan*/
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*HASTA AQUI LA BARRA DE NAVEGACION*/
 header{
     display: flex;
     flex-flow: row wrap;
@@ -23,7 +98,7 @@ header{
     background-color: whitesmoke;
 }
 
-.menu-subunidad {
+#menu-subunidad {
     width: 85%;
     position: absolute;
     top: 0;
@@ -38,7 +113,7 @@ header{
 .parte-izq {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -49,10 +124,29 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.flecha-izq {
+    height: 75px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inicio {
+    height: 75px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .logo-anterior {
-    background-image: url("../../img/flecha-izquierda.svg");
+    background-image: url("../img/flecha-izquierda.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +155,7 @@ header{
 }
 
 .logo-inicio {
-    background-image: url("../../img/home.svg");
+    background-image: url("../img/home.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,15 +164,14 @@ header{
 }
 
 .logo-siguiente {
-    background-image: url("../../img/flecha-derecha.svg");
+    background-image: url("../img/flecha-derecha.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 30px;
     height: 30px;
-
+    margin: 0 auto;
 }
-
 
 
 h1 {
@@ -99,7 +192,7 @@ h2 {
 h3 {
     display: block;
     font-family: 'Muli',Arial,sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color:black;
     text-align: justify;
 }
@@ -108,7 +201,7 @@ h3 {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    left: 20vw;
+    left: 0;
     overflow: auto;
 }
 
@@ -128,75 +221,31 @@ h3 {
     height: auto;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
 
 }
 
-#image1 {
-    background-image:url("../img/er1-3D.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 500px;
-    width: 100%;
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-#image2 {
-    background-image:url("../img/er1-01.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 700px;
-    width: 100%;
-}
-
-#image3 {
-    background-image:url("../img/er1-02.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-}
-
-#image4 {
-    background-image:url("../img/er1-03.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-}
-
-#image5 {
-    background-image:url("../img/er1-04.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 600px;
-    width: 100%;
-}
-
-#image6 {
-    background-image:url("../img/er1-05.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    height: 280px;
-    width: 100%;
-}
-
-.menu-inferior {
-    display: flex;
-    height: 75px;
-
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
 }
 
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
-    width: 90%;
-
+    width: 80%;
+    overflow: auto;
 }
 
 .read-more-wrap .unidad {
@@ -212,7 +261,6 @@ h3 {
     font-size: 1rem;
     font-weight: 700;
     background-color: #dbdbdb;
-
 }
 
 .read-more-wrap .subunidad{
