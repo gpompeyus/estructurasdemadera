@@ -197,6 +197,16 @@ h2 {
      text-align: justify;
  }
 
+p {
+    position: relative;
+    left: 15px;
+    display: block;
+    font-family: 'Muli',Arial,sans-serif;
+    font-size: 1.2rem;
+    color:black;
+    text-align: justify;
+}
+
 #contenido-general{
     position: absolute;
     width: 100vw;
