@@ -147,6 +147,11 @@ p {
     width: 100%;
 }
 
+p {
+    position: relative;
+    left: 100px;
+}
+
 /*CONTENIDO DEL CURSO*/
 
 .contenido-subunidad {
@@ -165,8 +170,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 550px;
-    width: 80vw;
+    height: 450px;
+    width: 89vw;
 
 
 }
@@ -177,7 +182,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     height: 850px;
-    width: 80vw;
+    width: 89vw;
 }
 
 .image3 {
@@ -185,8 +190,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image4 {
@@ -194,8 +199,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image5 {
@@ -203,8 +208,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image6 {
@@ -212,8 +217,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image7 {
@@ -221,8 +226,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image8 {
@@ -230,8 +235,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image9 {
@@ -239,8 +244,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .image10 {
@@ -248,8 +253,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 900px;
-    width: 80vw;
+    height: 750px;
+    width: 89vw;
 }
 
 .read-more-wrap { /*Indice de contenido*/
