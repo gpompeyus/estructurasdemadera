@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    overflow-x: hidden;
 }
 /*ICONO HAMBURGUESA CON TRANSFORMACION EN X*/
 
@@ -247,7 +248,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     height: 550px;
-    width: 100vw;
+    width: 100%;
 
 
 }
@@ -257,8 +258,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image3 {
@@ -266,8 +267,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image4 {
@@ -275,8 +276,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image5 {
@@ -284,8 +285,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image6 {
@@ -293,8 +294,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image7 {
@@ -302,8 +303,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image8 {
@@ -311,8 +312,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image9 {
@@ -320,8 +321,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 .image10 {
@@ -329,8 +330,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 600px;
-    width: 100vw;
+    height: 750px;
+    width: 100%;
 }
 
 

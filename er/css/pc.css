@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    overflow-x: hidden;
+
 }
 
 .menu-bar{
@@ -161,7 +161,7 @@ p {
     width: 80vw;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
 
 }
@@ -172,7 +172,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     height: 450px;
-    width: 89vw;
+    width: 100%;
 
 
 }
@@ -183,7 +183,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     height: 850px;
-    width: 89vw;
+    width: 100%;
 }
 
 .image3 {
@@ -191,8 +191,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image4 {
@@ -200,8 +200,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image5 {
@@ -209,8 +209,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image6 {
@@ -218,8 +218,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image7 {
@@ -227,8 +227,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image8 {
@@ -236,8 +236,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image9 {
@@ -245,8 +245,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .image10 {
@@ -254,8 +254,8 @@ p {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 850px;
-    width: 89vw;
+    height: 900px;
+    width: 100%;
 }
 
 .read-more-wrap { /*Indice de contenido*/
