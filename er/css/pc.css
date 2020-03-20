@@ -136,46 +136,120 @@ p {
 #contenido-general{
     position: absolute;
     width: 80vw;
-    height: 100vh;
     left: 20vw;
+    height: 100vh;
     overflow: auto;
 }
 
 #enunciado{
-    margin: 0 auto;
     background-color:white;
     padding: 0 20px;
     width: 100%;
-
 }
 
 /*CONTENIDO DEL CURSO*/
 
 .contenido-subunidad {
     background-color: white;
-    width: 85%;
     height: auto;
+    width: 80vw;
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-content: center;
 
 }
 
 .image1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+    background-image: url("../img/er1_3D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 80vw;
+
+
 }
 
 .image2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 70%;
-    height: auto;
+    background-image: url("../img/er1_2D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 80vw;
+}
+
+.image3 {
+    background-image: url("../img/er1_001.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image4 {
+    background-image: url("../img/er1_002.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image5 {
+    background-image: url("../img/er1_003.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image6 {
+    background-image: url("../img/er1_004.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image7 {
+    background-image: url("../img/er1_005.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image8 {
+    background-image: url("../img/er1_006.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image9 {
+    background-image: url("../img/er1_007.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
+}
+
+.image10 {
+    background-image: url("../img/er1_008.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 80vw;
 }
 
 .read-more-wrap { /*Indice de contenido*/

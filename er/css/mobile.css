@@ -220,7 +220,11 @@ p {
     background-color:white;
     padding: 0 20px;
     width: 100%;
+}
 
+p {
+    position: relative;
+    left: 30px;
 }
 
 /*CONTENIDO DEL CURSO*/
@@ -237,12 +241,97 @@ p {
 }
 
 .image1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+    background-image: url("../img/er1_3D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100vw;
+
+
 }
+
+.image2 {
+    background-image: url("../img/er1_2D.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100vw;
+}
+
+.image3 {
+    background-image: url("../img/er1_001.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image4 {
+    background-image: url("../img/er1_002.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image5 {
+    background-image: url("../img/er1_003.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image6 {
+    background-image: url("../img/er1_004.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image7 {
+    background-image: url("../img/er1_005.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image8 {
+    background-image: url("../img/er1_006.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image9 {
+    background-image: url("../img/er1_007.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
+.image10 {
+    background-image: url("../img/er1_008.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 100vw;
+}
+
 
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
