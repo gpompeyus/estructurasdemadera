@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 body{
     background-color: white;
     overflow-x: hidden;
@@ -64,6 +68,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     height: 100vh;
+    background-color: whitesmoke;
 
 }
 
@@ -77,6 +82,7 @@ body{
 .menu-bar{
     width:100vw;
     z-index: 2;/*Encima de la animacion de fondo*/
+    background-color: whitesmoke;
 }
 
 .change-bg { /*Fondo de la Barra de Navegacion*/
@@ -93,20 +99,21 @@ body{
 header{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 75px;
     background-color: whitesmoke;
+    margin-bottom: 20px;
 }
 
-#menu-subunidad {
+.menu-subunidad {
     width: 85%;
     position: absolute;
     top: 0;
     right: 0;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 75px;
 
@@ -114,12 +121,12 @@ header{
 .parte-izq {
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .parte-der {
-    background-color: #9ec9f0;
+    background-color: whitesmoke;
     height: 100%;
     width: 50%;
     display: flex;
@@ -176,37 +183,33 @@ header{
 
 
 h1 {
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 2.2rem;
-    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
     text-align: center;
-}
+ }
 
 h2 {
     padding: 15px;
-    font-family: 'Poppins',Verdana,sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
     color: black;
-    text-align: center;
-}
-
-h3 {
-    display: block;
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 1.2rem;
-    color:black;
     text-align: justify;
-}
+    line-height: 2.6rem;
+ }
 
-p {
-    position: relative;
-    left: 15px;
-    display: block;
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 1.2rem;
-    color:black;
-    text-align: justify;
-}
+ h3 {
+     position: relative;
+     top: 25px;
+     left: 20px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-size: 1.8rem;
+     color:black;
+     text-align: justify;
+ }
 
 #contenido-general{
     position: absolute;
@@ -219,14 +222,7 @@ p {
 #enunciado{
     margin: 0 auto;
     background-color:white;
-    padding: 0 20px;
     width: 100%;
-
-}
-
-p {
-    position: relative;
-    left: 30px;
 }
 
 /*CONTENIDO DEL CURSO*/
@@ -242,98 +238,20 @@ p {
 
 }
 
-.image1 {
-    background-image: url("../img/er1_3D.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 550px;
+.video1 {
+    position: relative;
     width: 100%;
-
-
+    padding-bottom: 56.25%;
+    height: 0;
 }
 
-.image2 {
-    background-image: url("../img/er1_2D.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
+.video1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
 }
-
-.image3 {
-    background-image: url("../img/er1_001.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image4 {
-    background-image: url("../img/er1_002.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image5 {
-    background-image: url("../img/er1_003.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image6 {
-    background-image: url("../img/er1_004.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image7 {
-    background-image: url("../img/er1_005.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image8 {
-    background-image: url("../img/er1_006.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image9 {
-    background-image: url("../img/er1_007.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
-.image10 {
-    background-image: url("../img/er1_008.jpg");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 750px;
-    width: 100%;
-}
-
 
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
@@ -343,22 +261,21 @@ p {
 
 .read-more-wrap .unidad {
     margin-top: 10px;
-    padding: 10px;
     width: 100%;
     min-height: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    font-family:'Poppins', Arial, sans-serif;
-    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
     font-weight: 700;
     background-color: #dbdbdb;
 }
 
 .read-more-wrap .subunidad{
-    font-family:'Muli', Arial, sans-serif;
-    font-size: 1rem;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -370,10 +287,12 @@ p {
 .read-more-wrap .subunidad:hover{
     background-color: #4c4c4c;
     color: #d2d2d2;
+    transition: .1s ease-in;
 }
 .read-more-wrap .texto-subunidad {
 
     display: inline-block;
+    width: 90%;
     min-height: 40px;
     vertical-align: center;
     padding:10px;

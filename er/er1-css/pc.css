@@ -1,18 +1,21 @@
-body{
-    background-color: white;
+html {
+    font-size: 62.5%;
+}
 
+
+body{
+    background-color: whitesmoke;
+    overflow-x: hidden;
 }
 
 .menu-bar{
-    background-color: #dbdbdb;
+    background-color:whitesmoke;
     width:20vw;
 }
 
 .nav {
     height: 100vh;
-    overflow: auto;
-
-
+    overflow-y: auto;
 }
 
 header{
@@ -44,7 +47,7 @@ header{
 }
 
 .parte-der {
-    background-color: #9ec9f0;
+    background-color:whitesmoke;
     height: 100%;
     width: 50%;
     display: flex;
@@ -99,40 +102,35 @@ header{
     margin: 0 auto;
 }
 
-
-
 h1 {
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 2.2rem;
-    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
     text-align: center;
-}
+    margin-top: 20px;
+ }
 
 h2 {
     padding: 15px;
-    font-family: 'Poppins',Verdana,sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
     color: black;
-    text-align: center;
-}
-
-h3 {
-    display: block;
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 1.2rem;
-    color:black;
     text-align: justify;
-}
+    line-height: 2.6rem;
+ }
 
-p {
-    position: relative;
-    left: 15px;
-    display: block;
-    font-family: 'Muli',Arial,sans-serif;
-    font-size: 1.2rem;
-    color:black;
-    text-align: justify;
-}
+ h3 {
+     position: relative;
+     left: 20px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     font-size: 1.8rem;
+     color:black;
+     text-align: justify;
+ }
+
 
 #contenido-general{
     position: absolute;
@@ -140,12 +138,14 @@ p {
     left: 20vw;
     height: 100vh;
     overflow: auto;
+    background-color: white;
 }
 
 #enunciado{
+    margin: 0 auto;
     background-color:white;
-    padding: 0 20px;
     width: 100%;
+    margin-top: 20px;
 }
 
 p {
@@ -167,7 +167,7 @@ p {
 }
 
 .image1 {
-    background-image: url("../img/er1_3D.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ p {
 }
 
 .image2 {
-    background-image: url("../img/er1_2D.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_2D.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@ p {
 }
 
 .image3 {
-    background-image: url("../img/er1_001.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_001.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +196,7 @@ p {
 }
 
 .image4 {
-    background-image: url("../img/er1_002.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_002.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@ p {
 }
 
 .image5 {
-    background-image: url("../img/er1_003.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_003.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ p {
 }
 
 .image6 {
-    background-image: url("../img/er1_004.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_004.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@ p {
 }
 
 .image7 {
-    background-image: url("../img/er1_005.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_005.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ p {
 }
 
 .image8 {
-    background-image: url("../img/er1_006.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_006.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -241,7 +241,7 @@ p {
 }
 
 .image9 {
-    background-image: url("../img/er1_007.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_007.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,7 +250,7 @@ p {
 }
 
 .image10 {
-    background-image: url("../img/er1_008.jpg");
+    background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_008.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -264,25 +264,34 @@ p {
 
 }
 
+.read-more-wrap { /*Indice de contenido*/
+    margin: 0 auto;
+    width: 80%;
+    overflow: auto;
+}
+
 .read-more-wrap .unidad {
     margin-top: 10px;
-    padding: 10px;
     width: 100%;
     min-height: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
-    font-family:'Poppins', Arial, sans-serif;
-    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
     font-weight: 700;
     background-color: #dbdbdb;
+}
 
+#subunidad-actual{
+    background-color: #4c4c4c;
+    color: white;
 }
 
 .read-more-wrap .subunidad{
-    font-family:'Muli', Arial, sans-serif;
-    font-size: 1rem;
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.8rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -294,10 +303,12 @@ p {
 .read-more-wrap .subunidad:hover{
     background-color: #4c4c4c;
     color: #d2d2d2;
+    transition: .1s ease-in;
 }
 .read-more-wrap .texto-subunidad {
 
     display: inline-block;
+    width: 90%;
     min-height: 40px;
     vertical-align: center;
     padding:10px;
@@ -308,7 +319,6 @@ p {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
-}
 
 
 /*BOTON VER MAS/VER MENOS*/
