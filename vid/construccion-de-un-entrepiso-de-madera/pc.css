@@ -9,49 +9,13 @@ body{
 }
 
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    color: black;
-    text-align: center;
-    margin-top: 20px;
- }
-
 h2 {
-    padding: 15px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
     color: black;
-    text-align: justify;
-    line-height: 2.6rem;
- }
-
- h3 {
-     position: relative;
-     top: 25px;
-     left: 20px;
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 400;
-     font-size: 1.8rem;
-     color:black;
-     text-align: justify;
- }
-
-
-.enunciado{
-    margin: 0 auto;
-    background-color:white;
-    width: 95%;
-    margin-top: 20px;
-}
-
-p {
     position: relative;
-    left: 100px;
-}
-
+    top: 30px;
+    font-size: 2rem;
+    font-weight: 700;
+ }
 /*CONTENIDO DEL CURSO*/
 
 .video1 {

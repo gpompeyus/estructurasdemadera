@@ -1,12 +1,14 @@
-.contenido-general {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    overflow: auto;
-}
-
 /*CONTENIDO DEL CURSO*/
+h2 {
+    color: black;
+    position: relative;
+    top: 25px;
+    font-size: 1.9rem;
+    font-weight: 700;
+ }
+
+
+
 .image1 {
     background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");
     background-size: contain;

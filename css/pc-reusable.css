@@ -1,6 +1,7 @@
-.menu-bar{ /** LADO IZQUIERDO*/
-    background-color:whitesmoke;
-    width:25vw;
+.menu-bar {
+    /** LADO IZQUIERDO*/
+    background-color: whitesmoke;
+    width: 25vw;
 }
 
 .nav {
@@ -9,7 +10,7 @@
 
 }
 
-.contenido-general{
+.contenido-general {
     position: absolute;
     width: 75vw;
     left: 25vw;
@@ -28,13 +29,58 @@
     align-content: center;
 }
 
-header{
+header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     height: 75px;
-    background-color: red;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5rem;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.7rem;
+    color: #c0c0c0;
+    text-align: center;
+    font-weight: 400;
+}
+
+h3 {
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.65rem;
+    color: black;
+    text-align: center;
+    line-height: 2.6rem;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+    line-height: 2rem;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.65rem;
+    color: black;
+    text-align: justify;
+    line-height: 2.7rem;
+    padding: 5%;
 }
 
 .menu-subunidad {
@@ -49,6 +95,7 @@ header{
     height: 75px;
 
 }
+
 .parte-izq {
     width: 50%;
     display: flex;
@@ -58,7 +105,7 @@ header{
 }
 
 .parte-der {
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     height: 100%;
     width: 50%;
     display: flex;
@@ -113,7 +160,8 @@ header{
     margin: 0 auto;
 }
 
-.read-more-wrap { /*Indice de contenido*/
+.read-more-wrap {
+    /*Indice de contenido*/
     margin: 0 auto;
     width: 90%;
     overflow: auto;
@@ -122,44 +170,46 @@ header{
 
 .read-more-wrap .unidad {
     margin-top: 10px;
-    padding:10px;
+    padding: 10px;
     min-height: 40px;
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.75rem;
     font-weight: 700;
     background-color: #dbdbdb;
 }
 
-.read-more-wrap .subunidad{
-    font-family:'Open Sans', sans-serif;
-    font-size: 1.8rem;
+.read-more-wrap .subunidad {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.65rem;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(245,245,245);
+    background-color: rgb(245, 245, 245);
     border-top: 2px solid whitesmoke;
 }
 
-.read-more-wrap .subunidad:hover{
+.read-more-wrap .subunidad:hover {
     background-color: #4c4c4c;
     color: #d2d2d2;
     transition: .1s ease-in;
 }
+
 .read-more-wrap .texto-subunidad {
 
     display: inline-block;
     min-height: 40px;
     vertical-align: center;
-    padding:10px;
+    padding: 10px;
     width: 95%;
 }
 
-.read-more-wrap .subunidad-icon { /*tamaño del icono en la subunidad*/
+.read-more-wrap .subunidad-icon {
+    /*tamaño del icono en la subunidad*/
     width: 25px;
     display: inline-block;
     vertical-align: middle;

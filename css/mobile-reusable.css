@@ -1,10 +1,3 @@
-/**MENU DE NAVEGACION PARA TODOS MOBILES*/
-
-
-/** HASTA AQUI EL MENU DE NAVEGACION PARA TODOS LOS MOBILES*/
-
-
-
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
     width: 85%;
@@ -12,46 +5,73 @@
     margin-bottom: 300px;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 700;
+ }
 
-/*BOTON VER MAS/VER MENOS*/
+h2 {
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #c0c0c0;
+    text-align: center;
+    font-weight: 400;
+ }
 
+ h3 {
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.55rem;
+    color: black;
+    text-align: center;
+    line-height: 2.6rem;
+}
 
-/*.read-more-state {*/
-/*    display: none;*/
-/*}*/
+h4 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: black;
+    line-height: 2rem;
+}
 
-/*.read-more-target {*/
-/*    opacity: 0;*/
-/*    max-height: 0;*/
-/*    font-size: 0;*/
-/*    transition: .25s ease;*/
-/*}*/
-/*!*!*Cuando hago click en Ver mas*!*!*/
-/*.read-more-state:checked ~ .read-more-wrap .read-more-target {*/
-/*    opacity: 1;*/
-/*    font-size: inherit;*/
-/*    max-height: 999em;*/
-/*}*/
-/*!*!*Contenido del Boton antes de hacer click*!*!*/
-/*.read-more-state ~ .read-more-trigger:before {*/
-/*    content: 'Ver mas >';*/
-/*}*/
-/*!*!*Contenido del Boton despues de hacer click*!*!*/
-/*.read-more-state:checked ~ .read-more-trigger:before {*/
-/*    content: 'Ver menos <';*/
+p {
+    width: 95%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: black;
+    text-align: justify;
+    line-height: 2.6rem;
+}
 
-/*}*/
-/*!*!*Estilo del boton antes y despues de hacer click*!*!*/
-/*.read-more-trigger {*/
-/*    cursor: pointer;*/
-/*    display: inline-block;*/
-/*    padding: 0 .5em;*/
-/*    color: black;*/
-/*    font-size: .7em;*/
-/*    font-family:'Poppins', Arial, sans-serif;*/
-/*    line-height: 2;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: .25em;*/
-/*}*/
+.read-more-wrap .unidad {
+    margin-top: 10px;
+    padding:10px;
+    min-height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: #dbdbdb;
+}
 
-/*!*!* Other style *!*!*/
+.read-more-wrap .subunidad{
+    font-family:'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(245,245,245);
+    border-top: 2px solid whitesmoke;
+}
