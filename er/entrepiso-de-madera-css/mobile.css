@@ -1,11 +1,3 @@
-#contenido-general{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    overflow: auto;
-}
-
 /*CONTENIDO DEL CURSO*/
 .image1 {
     background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");

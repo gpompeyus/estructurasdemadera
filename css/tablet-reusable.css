@@ -110,6 +110,16 @@ header{
     overflow: auto;
 }
 
+.contenido-subunidad { /**ABAJO DEL ENUNCIADO*/
+    background-color: white;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
 .menu-subunidad {
     width: 85%;
     position: absolute;

@@ -6,6 +6,7 @@
 .nav {
     height: 100vh;
     overflow-y: auto;
+
 }
 
 .contenido-general{
@@ -20,7 +21,7 @@
 .contenido-subunidad {
     background-color: white;
     height: auto;
-    width: 80vw;
+    width: 75vw;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;

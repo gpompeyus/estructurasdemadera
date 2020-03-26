@@ -37,7 +37,7 @@ h3 {
 }
 
 
-#contenido-general {
+.contenido-general {
     position: absolute;
     width: 75vw;
     left: 25vw;
@@ -45,8 +45,7 @@ h3 {
     overflow: auto;
     background-color: white;
 }
-
-#enunciado {
+.enunciado {
     margin: 0 auto;
     background-color: white;
     width: 100%;
