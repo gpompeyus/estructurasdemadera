@@ -17,6 +17,16 @@
     background-color: white;
 }
 
+.contenido-subunidad {
+    background-color: white;
+    height: auto;
+    width: 80vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
 header{
     display: flex;
     flex-flow: row wrap;
@@ -102,11 +112,6 @@ header{
     margin: 0 auto;
 }
 
-
-
-
-
-
 .read-more-wrap { /*Indice de contenido*/
     margin: 0 auto;
     width: 90%;
@@ -116,7 +121,7 @@ header{
 
 .read-more-wrap .unidad {
     margin-top: 10px;
-    width: 100%;
+    padding:10px;
     min-height: 40px;
     display: flex;
     flex-flow: row wrap;
@@ -135,7 +140,7 @@ header{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(245,245,245);
+    background-color:rgb(245,245,245);
     border-top: 2px solid whitesmoke;
 }
 

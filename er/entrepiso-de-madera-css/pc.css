@@ -60,17 +60,6 @@ p {
 
 /*CONTENIDO DEL CURSO*/
 
-.contenido-subunidad {
-    background-color: white;
-    height: auto;
-    width: 80vw;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-content: center;
-
-}
-
 .image1 {
     background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");
     background-size: contain;
