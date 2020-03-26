@@ -110,10 +110,17 @@ header{
     overflow: auto;
 }
 
+.enunciado {
+    margin: 0 auto;
+    background-color: white;
+    width: 95%;
+    margin-top: 20px;
+}
+
 .contenido-subunidad { /**ABAJO DEL ENUNCIADO*/
     background-color: white;
     height: auto;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
