@@ -1,20 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
 /*CONTENIDO DEL CURSO*/
-h2 {
-    color: black;
-    position: relative;
-    top: 25px;
-    font-size: 1.9rem;
-    font-weight: 700;
- }
-
-
 
 .image1 {
     background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/img/er/er1/er1_3D.jpg");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 450px;
     width: 100%;
 
 
@@ -25,7 +24,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 850px;
     width: 100%;
 }
 
@@ -34,7 +33,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -43,7 +42,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -52,7 +51,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -61,7 +60,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -70,7 +69,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -79,7 +78,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -88,7 +87,7 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
 }
 
@@ -97,6 +96,11 @@ h2 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 900px;
     width: 100%;
+}
+
+#subunidad-actual {
+    background-color: #4c4c4c;
+    color: white;
 }
