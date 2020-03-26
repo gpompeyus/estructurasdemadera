@@ -2,10 +2,10 @@ html {
     font-size: 62.5%;
 }
 
-
-body{
+body {
     background-color: whitesmoke;
     overflow-x: hidden;
+}
 
 h1 {
     font-family: 'Open Sans', sans-serif;
@@ -14,7 +14,7 @@ h1 {
     color: black;
     text-align: center;
     margin-top: 20px;
- }
+}
 
 h2 {
     padding: 15px;
@@ -24,31 +24,31 @@ h2 {
     color: black;
     text-align: justify;
     line-height: 2.6rem;
- }
+}
 
- h3 {
-     position: relative;
-     left: 20px;
-     font-family: 'Open Sans', sans-serif;
-     font-weight: 400;
-     font-size: 1.8rem;
-     color:black;
-     text-align: justify;
- }
+h3 {
+    position: relative;
+    left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: black;
+    text-align: justify;
+}
 
 
-#contenido-general{
+#contenido-general {
     position: absolute;
-    width: 80vw;
-    left: 20vw;
+    width: 75vw;
+    left: 25vw;
     height: 100vh;
     overflow: auto;
     background-color: white;
 }
 
-#enunciado{
+#enunciado {
     margin: 0 auto;
-    background-color:white;
+    background-color: white;
     width: 100%;
     margin-top: 20px;
 }
@@ -163,7 +163,7 @@ p {
     width: 100%;
 }
 
-#subunidad-actual{
+#subunidad-actual {
     background-color: #4c4c4c;
     color: white;
 }

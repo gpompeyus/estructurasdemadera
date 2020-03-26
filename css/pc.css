@@ -182,3 +182,10 @@ h2 {
 
 }
 
+.read-more-wrap { /*Indice de contenido*/
+    margin: 0 auto;
+    width: 50%;
+    overflow: auto;
+    margin-bottom: 300px;
+}
+
