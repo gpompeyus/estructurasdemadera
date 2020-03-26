@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="css/vernon-reset.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" href="css/pc-reusable.css">
     <link rel="stylesheet" media="screen and (max-width: 1024px" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px" href="css/tablet-reusable.css">
     <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px" href="css/mobile-reusable.css">
     <link rel="stylesheet" href="css/print.css" media="print">
 
     <script src="js/script.js"></script>
@@ -24,7 +27,7 @@
 
 <body>
     <header>
-        <div id="menu-bar">
+        <div id="menu-bar" style="display: none;">
             <!--Barra de Navegacion-->
             <div id="menu" onclick="onClickMenu()">
                 <!--Icono hamburguesa-->
@@ -43,14 +46,14 @@
         <div class="menu-bg" id="menu-bg"></div>
         <!--Fondo Barra de Navegacion-->
 
-        <a href="https://www.ucbscz.edu.bo" target="_blank">
-            <div id="logo-catolica"></div>
-        </a>
     </header>
 
     <section>
         <!--portada-->
         <div class="portada">
+            <a href="https://www.ucbscz.edu.bo" target="_blank">
+                <div class="logo-catolica"></div>
+            </a>
             <h1>Estructuras de Madera </h1>
             <h2>Metodo LRFD, basado en la NDS 2018</h2>
             <a href="#boton-aqui"><button id="boton-portada">Ver Contenido</button></a>
@@ -102,17 +105,32 @@
     <div id="boton-aqui"></div>
     <div class="contenido-container">
         <p class="enunciado">Contenido:</p>
+        <a id="clases-virtuales" href="#">CLASES VIRTUALES (LINK) <style>
+                #clases-virtuales {
+                    padding: 20px;
+                    color: red;
+                    font-size: 2rem;
+                }
+            </style></a>
+
+
+
+
+<!-- ! DESDE AQUI EL CONTENIDO REUSABLE CON css-reusable-->
+
         <input type="checkbox" class="read-more-state" id="post-2" />
 
         <ul class="read-more-wrap">
+
+
+            
+
+        
             <li class="unidad">1. Introducción</li>
-
-
 
             <li class="unidad">2. Introducción a las cargas estructurales de diseño</li>
 
-
-            <li class="unidad">3. Diseño de Miembros a flexión, vigas de madera (virtual 24/03/2020)</li>
+            <li class="unidad">3. Diseño de Miembros a flexión, vigas de madera</li>
 
             <a href="vid/construccion-de-un-entrepiso-de-madera.html">
                 <div class="subunidad" id="subunidad-actual">
@@ -123,67 +141,18 @@
                 </div>
             </a>
 
-            <a href="../er/er1.html">
+            <a href="er/entrepiso-de-madera.html">
                 <div class="subunidad">
                     <li class="texto-subunidad">
-                        <span class="span-subunidad">Ejercicio Resuelto 1</span>
+                        <span class="span-subunidad">Ejercicio Resuelto - Entrepiso de Madera</span>
                     </li>
                     <img class="subunidad-icon" src="img/document.svg" alt="">
                 </div>
             </a>
-
-            <a href="https://us04web.zoom.us/j/842228169?pwd=NHBsRDd3VmVQdGZpZ1crK295UTZXdz09">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">Videoconferencia 24/03/2020</span>
-                    </li>
-                    <img class="subunidad-icon" src="img/video-icon.svg" alt="">
-                </div>
-            </a>
-
-
-
-
-
-
-
-            <!-- <li class="unidad">4. Diseño de Miembros bajo carga axial y flexión, columnas de Madera</li>
-
-            <a href="">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="../img/chrome-icon.svg" alt="">
-                </div>
-            </a> -->
-
-
-            <!--  <li class="unidad">5. Diseño de conexiones en madera</li> <a href="construccion.html"
-                target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="../img/chrome-icon.svg" alt="">
-                </div>
-            </a>
             
 
-            <li class="unidad">6. Proyecto final de estructuras de madera</li>
+            
 
-            <a href="construccion.html" target="_blank">
-                <div class="subunidad">
-                    <li class="texto-subunidad">
-                        <span class="span-subunidad">En construccion...</span>
-                    </li>
-                    <img class="subunidad-icon" src="../img/chrome-icon.svg" alt="">
-                </div>
-            </a> -->
-
-
-
-            <!--Sub-unidad-->
 
             <li class="read-more-target">
                 <!--lorem 3-->
@@ -193,11 +162,14 @@
                 <!--lorem 4-->
             </li>
             <!--ELEMENTO PARA VER MAS-->
-
+<!-- ! HASTA AQUI EL CONTENIDO REUSABLE con css.mobile-reusable-->
 
         </ul>
 
         <label for="post-2" class="read-more-trigger"></label>
+    
+
+
     </div>
 
 

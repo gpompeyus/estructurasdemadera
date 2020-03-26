@@ -5,6 +5,7 @@ html {
 
 /*HASTA AQUI LA BARRA DE NAVEGACION*/
 header{
+    position:absolute;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -181,98 +182,3 @@ h2 {
 
 }
 
-.read-more-wrap { /*Indice de contenido*/
-    margin: 0 auto;
-    width: 50%;
-    overflow: auto;
-    margin-bottom: 300px;
-}
-
-.read-more-wrap .unidad {
-    margin-top: 10px;
-    width: 100%;
-    min-height: 40px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 700;
-    background-color: #dbdbdb;
-}
-
-.read-more-wrap .subunidad{
-    font-family:'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(245,245,245);
-    border-top: 2px solid whitesmoke;
-}
-
-.read-more-wrap .subunidad:hover{
-    background-color: #4c4c4c;
-    color: #d2d2d2;
-    transition: .1s ease-in;
-}
-.read-more-wrap .texto-subunidad {
-
-    display: inline-block;
-    min-height: 40px;
-    vertical-align: center;
-    padding:10px;
-}
-
-.read-more-wrap .subunidad-icon { /*tamaño del icono en la subunidad*/
-    width: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-
-/*BOTON VER MAS/VER MENOS*/
-
-
-/*.read-more-state {*/
-/*    display: none;*/
-/*}*/
-
-/*.read-more-target {*/
-/*    opacity: 0;*/
-/*    max-height: 0;*/
-/*    font-size: 0;*/
-/*    transition: .25s ease;*/
-/*}*/
-/*!*!*Cuando hago click en Ver mas*!*!*/
-/*.read-more-state:checked ~ .read-more-wrap .read-more-target {*/
-/*    opacity: 1;*/
-/*    font-size: inherit;*/
-/*    max-height: 999em;*/
-/*}*/
-/*!*!*Contenido del Boton antes de hacer click*!*!*/
-/*.read-more-state ~ .read-more-trigger:before {*/
-/*    content: 'Ver mas >';*/
-/*}*/
-/*!*!*Contenido del Boton despues de hacer click*!*!*/
-/*.read-more-state:checked ~ .read-more-trigger:before {*/
-/*    content: 'Ver menos <';*/
-
-/*}*/
-/*!*!*Estilo del boton antes y despues de hacer click*!*!*/
-/*.read-more-trigger {*/
-/*    cursor: pointer;*/
-/*    display: inline-block;*/
-/*    padding: 0 .5em;*/
-/*    color: black;*/
-/*    font-size: .7em;*/
-/*    font-family:'Poppins', Arial, sans-serif;*/
-/*    line-height: 2;*/
-/*    border: 1px solid #ddd;*/
-/*    border-radius: .25em;*/
-/*}*/
-
-/*!*!* Other style *!*!*/
