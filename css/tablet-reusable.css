@@ -105,7 +105,7 @@ header{
 .contenido-general{
     position: absolute;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     left: 0;
     overflow: auto;
 }
@@ -113,7 +113,7 @@ header{
 .contenido-subunidad { /**ABAJO DEL ENUNCIADO*/
     background-color: white;
     height: auto;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -121,10 +121,10 @@ header{
 }
 
 .menu-subunidad {
-    width: 85%;
+    width:75%;
     position: absolute;
     top: 0;
-    right: 0;
+    right:0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
