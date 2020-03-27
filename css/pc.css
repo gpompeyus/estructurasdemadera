@@ -5,21 +5,15 @@ html {
 
 body {
     overflow-x: hidden;
+}
 
+header{
+    display: none;
 }
 
 /*HASTA AQUI LA BARRA DE NAVEGACION*/
-header{
-    position:absolute;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    height: 75px;
-    background-color: whitesmoke;
-}
 
-p{
+p {
     padding: 0;
 }
 
@@ -41,16 +35,16 @@ p{
     justify-content: center;
     align-items: center;
     height: 50vh;
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.65) 0%), url("../img/portada_madera.jpg");
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0.65) 0%), url("../img/portada_madera.jpg");
     background-color: whitesmoke;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-    
 
- #boton-portada{
+
+#boton-portada {
     cursor: pointer;
     font-size: 1.8rem;
     font-weight: 700;
@@ -59,12 +53,13 @@ p{
     padding: 7px;
     margin-top: 8px;
     width: 180px;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: #dbdbdb;
 }
 
-.docente-container { /*div Docente*/
+.docente-container {
+    /*div Docente*/
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
@@ -78,11 +73,11 @@ p{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: flex-start;
-    width:160px;
-    height:40px;
+    width: 160px;
+    height: 40px;
 }
 
-.icon-container a{
+.icon-container a {
     width: 30px;
     height: 30px;
 }
@@ -94,7 +89,7 @@ p{
     border-radius: 50%;
     background-image: url("../img/docente.jpg");
     background-size: cover;
-    background-position:top;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -102,11 +97,11 @@ p{
     color: blue;
 }
 
-#pompeyus-estructuras:hover{
+#pompeyus-estructuras:hover {
     text-decoration: underline;
 }
 
-#pompeyus-estructuras:visited{
+#pompeyus-estructuras:visited {
     color: #883EAD;
 }
 
@@ -119,15 +114,15 @@ p{
     align-items: center;
 }
 
-.descripcion-curso{
+.descripcion-curso {
     text-align: justify;
     margin: 20px auto;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 50%;
-    
+
 }
 
-.descripcion-curso ul{
+.descripcion-curso ul {
     height: auto;
     display: flex;
     flex-flow: column wrap;
@@ -137,16 +132,16 @@ p{
     list-style: square;
 }
 
-.descripcion-curso ul li{
+.descripcion-curso ul li {
     line-height: 2.7rem;
     margin-top: .9rem;
     font-size: 1.65rem;
 }
 
-.read-more-wrap { /*Indice de contenido*/
+.read-more-wrap {
+    /*Indice de contenido*/
     margin: 0 auto;
     width: 50%;
     overflow: auto;
     margin-bottom: 300px;
 }
-

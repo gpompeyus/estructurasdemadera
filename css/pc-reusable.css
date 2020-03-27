@@ -34,7 +34,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
+    height: 65px;
 }
 
 h1 {
@@ -100,7 +100,7 @@ p {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 75px;
+    height: 65px;
 
 }
 
@@ -123,7 +123,7 @@ p {
 }
 
 .flecha-izq {
-    height: 75px;
+    height: 65px;
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -132,7 +132,7 @@ p {
 }
 
 .inicio {
-    height: 75px;
+    height: 65px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -145,8 +145,8 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .logo-inicio {
@@ -154,8 +154,8 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 .logo-siguiente {
@@ -163,8 +163,8 @@ p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     margin: 0 auto;
 }
 

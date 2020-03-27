@@ -37,7 +37,7 @@
 #menu { /*Container tres rayitas de la hamburguesa*/
     position: absolute;
     left: 20px;
-    top: 0;
+    top: -5px;
     width: 32px;
     height: 12px;
     margin: 30px 0 20px 20px;
@@ -92,16 +92,6 @@
 
 /**MENU DE NAVEGACION PARA TODAS LAS TABLETS*/
 
-header{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    height: 55px;
-    background-color: whitesmoke;
-    margin-bottom: 20px;
-}
-
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 4rem;
@@ -139,19 +129,6 @@ h2 {
     flex-flow: column wrap;
     justify-content: flex-start;
     align-content: center;
-}
-
-.menu-subunidad {
-    width:75%;
-    position: absolute;
-    top: 0;
-    right:0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
-
 }
 
 .read-more-wrap { /*Indice de contenido*/
