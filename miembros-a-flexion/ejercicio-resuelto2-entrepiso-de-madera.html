@@ -117,31 +117,53 @@
     <div class="image3"></div>
 
     <style>
+
+        @media (min-width:0px) { /*Portrait*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 700px auto 3000px auto 3000px/100%;
+            }
+        }
+
+        @media (min-width:359px) { /*landscape*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 750px auto 3300px auto 3300px/100%;
+            }
+        }
+
+        @media (min-width:440px) { /*Tablet*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 800px auto 4100px auto 4100px/100%;
+            }
+        }
+
+
+
         .image1 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/01pc.jpg");
-            background-size: contain;
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height:650px;
-            max-width:600px;
+
         }
 
         .image2 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/03movil.jpg");
-            background-size: contain;
+            background-size: cover;
             background-position: top center;
             background-repeat: no-repeat;
-            height: 2400px;
-            max-width: 600px;
+
         }
 
         .image3 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/04movil.jpg");
-            background-size: contain;
+            background-size: cover;
             background-position: top center;
             background-repeat: no-repeat;
-            height: 2400px;
-            max-width: 600px;
+
+
         }
 
 
@@ -153,9 +175,6 @@
                 background-position: center;
                 background-repeat: no-repeat;
                 height: 1000px;
-                max-width: 900px;
-
-
             }
 
             .image2 {
@@ -163,9 +182,7 @@
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 2000px;
-                max-width: 900px;
-
+                height: 3000px;
             }
 
             .image3 {
@@ -173,8 +190,7 @@
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 2000px;
-                max-width: 900px;
+                height: 3000px;
             }
         }
     </style>

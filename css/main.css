@@ -2,7 +2,7 @@
 POR DEFECTO
  */
 html {
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 body {
@@ -147,7 +147,8 @@ header {
     margin: 0 auto;
     background-color: white;
     width: 90%;
-    max-width: 900px;
+    max-width: 1200px;
+
 }
 
 
@@ -204,6 +205,10 @@ footer {
  ===============*/
 
 @media (min-width:900px) {
+    html {
+        overflow-x: hidden;
+    }
+
     .open-btn, .close-btn {
         display: none;
     }
@@ -232,6 +237,7 @@ footer {
     }
 
     .contenido-subunidad {
+        max-width: 900px;
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 2;
