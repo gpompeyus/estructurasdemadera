@@ -121,21 +121,21 @@
         @media (min-width:0px) { /*Portrait*/
             .contenido-subunidad {
                 display: grid;
-                grid-template: auto auto 700px auto 3000px auto 3000px/100%;
+                grid-template: auto auto 800px auto 3000px auto 3000px/100%;
             }
         }
 
         @media (min-width:359px) { /*landscape*/
             .contenido-subunidad {
                 display: grid;
-                grid-template: auto auto 750px auto 3300px auto 3300px/100%;
+                grid-template: auto auto 900px auto 3500px auto 3300px/100%;
             }
         }
 
         @media (min-width:440px) { /*Tablet*/
             .contenido-subunidad {
                 display: grid;
-                grid-template: auto auto 800px auto 4100px auto 4100px/100%;
+                grid-template: auto auto 1000px auto 4800px auto 4500px/100%;
             }
         }
 
@@ -143,7 +143,7 @@
 
         .image1 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/01pc.jpg");
-            background-size: cover;
+            background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
 
@@ -151,7 +151,7 @@
 
         .image2 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/03movil.jpg");
-            background-size: cover;
+            background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
 
@@ -159,7 +159,7 @@
 
         .image3 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/04movil.jpg");
-            background-size: cover;
+            background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
 
@@ -167,30 +167,32 @@
         }
 
 
-        @media (min-width:600px) {
+        @media (min-width:768px) { /*PC*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 1000px auto 2500px auto 2600px/100%;
+            }
+        
 
             .image1 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/01pc.jpg");
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 1000px;
             }
 
             .image2 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/03pc.jpg");
                 background-size: contain;
-                background-position: center;
+                background-position: top center;
                 background-repeat: no-repeat;
-                height: 3000px;
             }
 
             .image3 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%202%20-%20entrepiso%20de%20madera/04pc.jpg");
                 background-size: contain;
-                background-position: center;
+                background-position: top center;
                 background-repeat: no-repeat;
-                height: 3000px;
             }
         }
     </style>

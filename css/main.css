@@ -66,6 +66,7 @@ h5{
 
 p {
     margin: 0 auto;
+    max-width: 900px;
     font-weight: 400;
     font-size: .95rem;
     color: black;
@@ -147,10 +148,8 @@ header {
     margin: 0 auto;
     background-color: white;
     width: 90%;
-    max-width: 1200px;
 
 }
-
 
 .unidad {
     padding:8px 10px;
@@ -237,7 +236,7 @@ footer {
     }
 
     .contenido-subunidad {
-        max-width: 900px;
+        max-width: 1200px;
         grid-row-start: 2;
         grid-row-end: 3;
         grid-column-start: 2;
