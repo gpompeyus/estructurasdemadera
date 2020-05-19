@@ -80,7 +80,20 @@
         </div>
     </a>
 
-    <li class="unidad">3. Miembros a Tensión</li>
+    <li class="unidad">3. Miembros a Fuerza Axial y Flexión con Fuerza Axial Combinadas</li>
+
+    <a href="../miembros-a-fuerza-axial-y-tension-combinadas/ejercicio-resuelto1-miembro-a-tension.html">
+        <div class="subunidad">
+            <h2 class="texto-subunidad">Ejercicio Resuelto 1 - Miembro a Tensión</h2>
+            <img class="icon" src="../img/document.svg" alt="">
+        </div>
+    </a>
+
+    <a href="../miembros-a-fuerza-axial-y-tension-combinadas/ejercicio-resuelto2-miembro-a-flexion-y-tension-combinadas.html">
+        <div class="subunidad">
+            <h2 class="texto-subunidad">Ejercicio Resuelto 2 - Miembro a Flexión y Tensión Combinadas</h2>
+            <img class="icon" src="../img/document.svg" alt="">
+        </div>
 
 
 
@@ -118,13 +131,33 @@
     <div class="image4"></div>
 
     <style>
+
+        @media (min-width:0px) { /*Portrait*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 300px 400px auto 2200px auto 1750px/100%;
+            }
+        }
+
+        @media (min-width:359px) { /*landscape*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 500px 600px auto 3000px auto 2300px/100%;
+            }
+        }
+
+        @media (min-width:440px) { /*Tablet*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 1000px 1000px auto 4800px auto 4000px/100%;
+            }
+        }
+
         .image1 {
             background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%201%20-%20Entrepiso%20de%20Madera/01pc.jpg");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
-            height:350px;
-            max-width:600px;
         }
 
         .image2 {
@@ -132,8 +165,6 @@
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
-            height:550px;
-            max-width: 600px;
         }
 
         .image3 {
@@ -141,8 +172,6 @@
             background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
-            height: 2400px;
-            max-width: 600px;
         }
 
         .image4 {
@@ -150,22 +179,20 @@
             background-size: contain;
             background-position: top center;
             background-repeat: no-repeat;
-            height: 2400px;
-            max-width: 600px;
         }
 
 
-        @media (min-width:600px) {
+        @media (min-width:768px) { /*PC*/
+            .contenido-subunidad {
+                display: grid;
+                grid-template: auto auto 400px 700px auto 2300px auto 2000px/100%;
+            }
 
             .image1 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%201%20-%20Entrepiso%20de%20Madera/01pc.jpg");
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 400px;
-                max-width: 900px;
-
-
             }
 
             .image2 {
@@ -173,27 +200,21 @@
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
-                height: 800px;
-                max-width: 900px;
 
             }
 
             .image3 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%201%20-%20Entrepiso%20de%20Madera/03pc.jpg");
                 background-size: contain;
-                background-position: center;
+                background-position: top center;
                 background-repeat: no-repeat;
-                height: 2000px;
-                max-width: 900px;
             }
 
             .image4 {
                 background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/madera/Miembros%20a%20Flexion/ejercicios%20resueltos/ejercicio%20resuelto%201%20-%20Entrepiso%20de%20Madera/04pc.jpg");
                 background-size: contain;
-                background-position: center;
+                background-position: top center;
                 background-repeat: no-repeat;
-                height: 2000px;
-                max-width: 900px;
             }
         }
     </style>
