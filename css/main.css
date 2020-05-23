@@ -21,6 +21,20 @@ a {
     color: inherit;
 }
 
+.enlaces {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.enlaces:hover{
+    text-decoration: none;
+}
+
+.enlaces:visited {
+    color: #883EAD;
+}
+
 /*END POR DEFECTO
  ==========*/
 
@@ -203,7 +217,7 @@ footer {
 /*END CONTENIDO
  ===============*/
 
-@media (min-width:900px) {
+@media (min-width:1250px) {
     html {
         overflow-x: hidden;
     }
@@ -272,6 +286,8 @@ h5{
     .icon {
         height: 1.3rem;
     }
+
+
 }
 
 /*END ENCABEZADO
