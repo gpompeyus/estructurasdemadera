@@ -25,7 +25,7 @@
         <img class="menu-icon" alt="" src="../img/home.svg">
     </a>
 
-    <a href="introduccion.html">
+    <a href="../miembros-a-tension/ejercicio-resuelto-area-neta-pernos-alternados.html">
         <img class="menu-icon" alt="" src="../img/flecha-izquierda.svg">
     </a>
 
@@ -73,16 +73,16 @@
 
     <li class="unidad">4. Miembros a Compresión</li>
 
-    <a href="introduccion.html">
-        <div class="subunidad">
-            <h2 class="texto-subunidad">Introducción</h2>
+    <a href="#">
+        <div class="subunidad actual">
+            <h2 class="texto-subunidad actual">Introducción</h2>
             <img class="icon" src="../img/chrome-icon.svg" alt="">
         </div>
     </a>
 
     <a href="teoria-de-columnas-formula-de-euler.html">
-        <div class="subunidad actual">
-            <h2 class="texto-subunidad actual">Teoría de Columnas - Formula de Euler</h2>
+        <div class="subunidad">
+            <h2 class="texto-subunidad">Teoría de Columnas - Formula de Euler</h2>
             <img class="icon" src="../img/chrome-icon.svg" alt="">
         </div>
     </a>
@@ -97,14 +97,6 @@
         </div>
     </a>
 
-    <li class="read-more-target">
-        <!--lorem 3-->
-    </li>
-    <!--ELEMENTO PARA VER MAS-->
-    <li class="read-more-target">
-        <!--lorem 4-->
-    </li>
-    <!--ELEMENTO PARA VER MAS-->
 </ul>
 
 
@@ -112,10 +104,11 @@
 
 <div class="contenido-subunidad">
 
-    <h1>Teoría de Columnas - Formula de Euler</h1>
-    <p>Para miembros muy cortos, cuya longitud se aproxima a la
-        medida de sus otras dos dimensiones, la falla en el elemento se da cuando el acero alcance la fluencia
-        por compresión y esta dada por la formula:</p>
+    <h1>Miembros a Compresion - Introduccion</h1>
+    <p>Los miembros a compresión son elementos estructurales sometidos
+        a fuerzas axiales que tienden a presionar los extremos del elemento hacia adentro. El miembro a
+        compresión más común es una columna, considerado un miembro vertical que soporta elementos horizontales de un
+        entrepiso o cubierta.</p>
         <br> <br>
 
     <p>Los miembros a compresión también se utilizan en cerchas y como elementos de arriostramiento en
@@ -128,41 +121,16 @@
     <br>
 
 
-    <p>Pero debido a que la mayoría de los miembros tienen una longitud que excede por mucho sus otras dos
-        dimensiones, aparece el efecto de pandeo, es decir el miembro se vuelve inestable tomando la forma de la
-        línea punteada en la figura 1. Para miembros demasiado esbeltos, se puede alcanzar el efecto de pandeo
-        antes que la fluencia del acero en compresión. El efecto de pandeo se puede apreciar en el siguiente video.</p>
-
-    <div class="video1">
-        <iframe width="1195" height="672"
-                src="https://www.youtube.com/embed/jNwvub87l8o"
-                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe> </div>
-    <br> <br>
-
     <div class="image1"></div>
-    <div class="image2"></div>
-
-    <p>Para este desarrollo teórico, una columna cuya longitud sea menor que <img src="https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Teoria%20de%20Columnas%20%28Euler%29/Ly.svg" alt="">, fallará por fluencia del acero
-        en compresión y será considerada una columna corta, mientras que una columna con una longitud mayor a
-        <img src="https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Teoria%20de%20Columnas%20%28Euler%29/Ly.svg" alt="">, fallara por pandeo y será considerada una columna larga. <br>
-
-        Dividiendo ambos lados de la ecuación entre el área de la sección e incluyendo el radio de giro
-        expresamos la ecuación en términos de esfuerzo.</p>
-
-    <div class="image4"></div>
-
-    <p>Obteniendo asi el esfuerzo Critico <img src="https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Teoria%20de%20Columnas%20%28Euler%29/Fcr.svg" alt=""></p>
-
-
-
+    <h3>Puente Ferroviario Pailon (Santa Cruz, Bolivia)</h3>
+    <br>
 
     <div class="image2"></div>
     <h3>Edificio Citicorp Builduing, Nueva York</h3>
 
     <style>
         .image1 {  /*horizontal*/
-            background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Teoria%20de%20Columnas%20%28Euler%29/euler1.jpg");
+            background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Introduccion/puente-pailon.jpg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -172,7 +140,7 @@
         }
 
         .image2 {  /*vertical*/
-            background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Teoria%20de%20Columnas%20%28Euler%29/euler2.jpg");
+            background-image: url("https://filedn.com/lI8wAFRCHTkXQQM0PTWcKT5/metalica/img/miembros%20a%20compresion/Introduccion/citicorp-construction.jpg");
             background-size: contain;
             background-position: center;
             background-repeat: no-repeat;
@@ -180,22 +148,6 @@
             width: 100%;
             max-width: 900px;
         }
-
-        .video1 {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-        }
-
-        .video1 iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
 
         @media (min-width:600px) {
 
